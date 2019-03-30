@@ -10,7 +10,7 @@ public class Cliente extends PessoaFisica {
 	// 5 = int cartao, 6 = int habilitacao, 7 = string carroAlugado
 	private ArrayList<Object> dadosCliente = new ArrayList<Object>();
 	
-    public Cliente(long cpf, long contato, long endereco, String nome, Date dataDeNascimento, long cartao, long habilitacao) {
+    public Cliente(String nome, long cpf, long contato, long endereco, Date dataDeNascimento, long cartao, long habilitacao) {
     	super(cpf, contato, endereco, nome, dataDeNascimento);
     	this.dadosCliente = this.getDados();
     	this.dadosCliente.add(cartao);
