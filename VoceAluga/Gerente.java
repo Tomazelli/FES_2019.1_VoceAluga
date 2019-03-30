@@ -9,7 +9,8 @@ public class Gerente extends PessoaFisica {
     /**
      * Default constructor
      */
-    public Gerente() {
+    public Gerente(long cpf, long contato, long endereco, String nome, Date dataDeNascimento) {
+    	super(cpf, contato, endereco, nome, dataDeNascimento);
     }
 
 

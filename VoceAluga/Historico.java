@@ -1,6 +1,4 @@
 
-import java.util.*;
-
 /**
  * @author Felipe Tomazelli Crespo
  */
